@@ -14,5 +14,5 @@ If the api does not run because the system cannot identify particular variables,
 
 1 : > pip install flask
 2 : > pip install flask-restful
-3 : > pip install flask-jet
+3 : > pip install flask-jwt
 4 : > pip install flask-SQLAlchemy
