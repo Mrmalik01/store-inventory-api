@@ -1,24 +1,20 @@
-# Requirement -
+# Store-backend-api
 
-Python : minimum version 3.0
+## Minimum requirement 
 
+Python3
 
-# Installation
+## Installation
 
-###
-
+```
 pip install flask
 pip install flask-restful
 pip install flask-JWT
 pip install flask-SQLAlchemy
+```
 
-###
-
-# Run the program
-
-###
-
+## Run the program
+```
 cd code
 python3 app.py
-
-###
+```
