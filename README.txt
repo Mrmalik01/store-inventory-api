@@ -1,20 +1,14 @@
 # Store-backend-api
 
-## Minimum requirement 
-
-Python3
-
 ## Installation
 
 ```
 pip install flask
-pip install flask-restful
-pip install flask-JWT
-pip install flask-SQLAlchemy
+python app.py
 ```
 
-## Run the program
-```
-cd code
-python3 app.py
-```
+## Description
+
+This api allows the end users to create and maintain store directory in the database easily with the given end points.
+
+
