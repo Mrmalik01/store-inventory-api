@@ -6,6 +6,7 @@ from resources.user import UserRegistry
 import sqlite3
 from resources.item import Item, Items
 from resources.store import Store, StoreList
+import os
 
 app = Flask(__name__)
 app.secret_key = 'secret_code'
