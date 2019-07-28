@@ -1,18 +1,24 @@
-Requirement --
+# Requirement -
 
-Minimum version of python required is python3
+Python : minimum version 3.0
 
 
-How to run the API:
+# Installation
 
-1 : Go to the directory that contains all files (models, resources etc)
-2 : then run this command: > python3 app.py
+###
 
-How to fix error:
+pip install flask
+pip install flask-restful
+pip install flask-JWT
+pip install flask-SQLAlchemy
 
-If the api does not run because the system cannot identify particular variables, then run these commands :
+###
 
-1 : > pip install flask
-2 : > pip install flask-restful
-3 : > pip install flask-jwt
-4 : > pip install flask-SQLAlchemy
+# Run the program
+
+###
+
+cd code
+python3 app.py
+
+###
