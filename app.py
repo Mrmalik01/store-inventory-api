@@ -24,7 +24,9 @@ api.add_resource(StoreList,'/stores')
 if __name__ == '__main__':
     from database import db
     db.init_app(app)
+    port = int(os.environ.get('PORT', 5000))
     app.run(port=5000, debug=True)
+    
 
         
 
